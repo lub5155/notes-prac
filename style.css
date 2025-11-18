@@ -1,0 +1,45 @@
+body{
+   background-color: #1C1C1C;
+}
+.container{
+    padding: 10px;
+    background:#1C1C1C;
+    height: 100%;
+    width: 100%;
+    color: #EDEDED;
+}
+#edtbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    padding:5px 10px;
+    background-color: #3A86FF;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+.notes{
+    margin-left: 70px;
+}
+.note{
+    width:50%;
+    min-height: 200px;
+    background-color: #2B2B2B;
+    border: 1px solid #3A86FF;
+     padding: 10px;
+     border-radius: 10px;
+}
+#edtbtn:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    padding:5px 10px;
+    background-color: #669efe;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+}
