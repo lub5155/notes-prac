@@ -24,12 +24,15 @@ body{
     margin-left: 70px;
 }
 .note{
-    width:50%;
+    margin: 10px;
+    width:90%;
     min-height: 200px;
     background-color: #2B2B2B;
     border: 1px solid #3A86FF;
      padding: 10px;
      border-radius: 10px;
+     color: #EDEDED;
+      font-weight: bold;
 }
 #edtbtn:hover{
     display: flex;
@@ -42,4 +45,29 @@ body{
     color: aliceblue;
     font-weight: bold;
     cursor: pointer;
+}
+.svebtn{
+    border: none;
+    border-radius: 20px;
+    padding:5px 15px;
+    background-color: #3A86FF;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+}
+.dltbtn{
+    border: none;
+    border-radius: 20px;
+    padding:5px 15px;
+    background-color: #3A86FF;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+}
+.saveb{
+    gap: 5px;
+    display:flex;
+    justify-content: center;
 }
